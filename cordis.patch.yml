@@ -1,0 +1,6 @@
+- insert:
+    - id: muse-desktop
+      name: dsh-while
+      config:
+        formalImOptIn: true
+        automaticDiscoveryEnabled: false
