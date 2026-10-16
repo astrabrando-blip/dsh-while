@@ -6,7 +6,7 @@
 
 [下载安装包](https://github.com/astrabrando-blip/dsh-while/releases/tag/v0.1.0-preview.2) · [反馈问题](https://github.com/astrabrando-blip/dsh-while/issues)
 
-while 是 DeepSeek Harness 的全局助理插件。把持续对话、长期目标、点子和多个 Session 的协作放在一起。
+while 是 DeepSeek Harness 的全局助理插件。持续对话，主动识别你的目标推荐灵感、插件推荐，还可以帮你管理多任务。
 
 ## 39 秒认识 while
 
