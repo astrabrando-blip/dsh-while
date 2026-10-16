@@ -4,7 +4,7 @@
 
 从你聊过的事里，发现下一件值得做的事。
 
-[下载安装包](https://github.com/astrabrando-blip/dsh-while/releases/tag/v0.1.0-preview.1) · [反馈问题](https://github.com/astrabrando-blip/dsh-while/issues)
+[下载安装包](https://github.com/astrabrando-blip/dsh-while/releases/tag/v0.1.0-preview.2) · [反馈问题](https://github.com/astrabrando-blip/dsh-while/issues)
 
 while 是 DeepSeek Harness 的全局助理插件。把持续对话、长期目标、点子和多个 Session 的协作放在一起。
 
@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/973be501-50c2-4fff-ba9f-3a1358866a4e
 
 ## 版本与兼容性
 
-当前为 **0.1.0-preview.1 开发者预览版**。开发环境曾在 DSH Desktop **0.2.0-rc.2 / macOS** 验证主要功能。本发布包的独立安装验证状态见 [发布验证](docs/VALIDATION.md)。不承诺其他版本或平台已通过验证。DSH API 仍快速变化。
+当前为 **0.1.0-preview.2 开发者预览版**。开发环境曾在 DSH Desktop **0.2.0-rc.2 / macOS** 验证主要功能。本发布包的独立安装验证状态见 [发布验证](docs/VALIDATION.md)。不承诺其他版本或平台已通过验证。DSH API 仍快速变化。
 
 请不要与旧的 `@dsh-local/muse-desktop` 同时启用：两者使用相同服务和存储命名。保留 `muse` 内部名称是为了兼容已有数据，并非另一个产品。
 
@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/973be501-50c2-4fff-ba9f-3a1358866a4e
 从 GitHub Release 下载预构建 `.tgz`，在下载目录运行：
 
 ```sh
-dsh plugin --profile web add ./dsh-while-0.1.0-preview.1.tgz
+dsh plugin --profile web add ./dsh-while-0.1.0-preview.2.tgz
 ```
 
 然后重新启动对应的 DSH 实例，在侧栏打开 **while**。使用宿主中已配置的模型与账号，无需为插件单独粘贴密钥。
@@ -46,7 +46,7 @@ dsh plugin --profile web add ./dsh-while-0.1.0-preview.1.tgz
 dsh plugin --profile web add ./dsh-while
 ```
 
-本仓库包含运行所需的 JS，安装不依赖 `prepare` 或本机 monorepo。首次体验建议下载 Release 中的 `.tgz`；GitHub 自动生成的 Source code 附件对应旧版本标签，不是安装包。
+本仓库包含运行所需的 JS，安装不依赖 `prepare` 或本机 monorepo。首次体验建议下载 Release 中的 `.tgz`；源码请使用本版本标签对应的完整源码。
 
 卸载：`dsh plugin --profile web remove dsh-while`。移除插件不等于删除宿主中的历史或数据。
 

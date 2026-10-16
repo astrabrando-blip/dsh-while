@@ -1,7 +1,7 @@
 {
   "name": "dsh-while",
-  "version": "0.1.0-preview.1",
-  "description": "while \u2014 a global DSH assistant with chat, goals, ideas and Session coordination.",
+  "version": "0.1.0-preview.2",
+  "description": "while — a global DSH assistant with chat, goals, ideas and Session coordination.",
   "type": "module",
   "main": "./lib/index.js",
   "exports": {
